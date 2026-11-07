@@ -1,0 +1,27 @@
+VOX V50 — 3D SURVIVAL / RPG / INVESTIGAÇÃO
+
+O QUE MUDOU
+- A exploração agora usa cenário 3D com câmera em terceira pessoa.
+- Personagem controlável por WASD ou setas.
+- Controles de toque na tela continuam disponíveis.
+- Floresta com árvores, pedras, ruínas e iluminação atmosférica.
+- Cinco fragmentos colecionáveis por expedição.
+- Portal com posição aleatória em cada nova expedição.
+- Detector com indicação de intensidade do sinal.
+- Criatura que patrulha e persegue o jogador quando se aproxima.
+- Integridade e fôlego básicos; contato com a criatura causa dano.
+- E ou botão INTERAGIR para estabilizar o portal; F ou ESCANEAR para usar o detector.
+
+INSTALAÇÃO NO GITHUB
+1. Faça backup do repositório atual.
+2. Extraia este ZIP.
+3. Envie os arquivos para a raiz do repositório VOX-LAB-V5, substituindo os arquivos de mesmo nome.
+4. Faça Commit changes e aguarde o GitHub Pages publicar.
+5. Abra o site e atualize com Ctrl+F5.
+
+IMPORTANTE
+- Todos os arquivos deste pacote ficam na raiz, sem subpastas, para facilitar o upload pelo navegador do GitHub.
+- A cena 3D usa Three.js carregado pelo CDN jsDelivr. É necessário estar conectado à internet para carregar a biblioteca.
+- É um protótipo 3D jogável inicial, não um jogo comercial final. Modelos, animações avançadas, áudio, salvamento completo e otimização ainda podem ser ampliados.
+- A sessão de exploração funciona localmente no navegador; a persistência em nuvem segue as limitações da configuração Supabase existente.
+- Para jogar: WASD/setas para andar, F para escanear e E para interagir. No celular, use o direcional e os botões na interface.

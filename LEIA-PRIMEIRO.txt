@@ -1,0 +1,9 @@
+VOX V5 — PACOTE SEM SUBPASTAS
+
+Todos os arquivos estão juntos nesta pasta para facilitar o envio pelo GitHub.
+Envie TODOS os arquivos desta pasta para a RAIZ do repositório VOX-V5.
+Não envie este arquivo ZIP; extraia primeiro e envie os arquivos que estão dentro.
+
+O index.html já aponta para style.css e main.js na mesma pasta.
+Os módulos JavaScript também importam uns aos outros usando caminhos relativos.
+Mantenha os nomes dos arquivos exatamente como estão.

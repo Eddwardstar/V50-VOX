@@ -1,0 +1,19 @@
+CORREÇÃO DO LOGIN — VOX V5
+
+O arquivo js/main.js importava initMissions, mas essa função não existia no módulo
+js/missions.js. Isso impedia o navegador de carregar o JavaScript principal e,
+por consequência, o botão de demonstração e o login não funcionavam.
+
+Esta versão adiciona a função de inicialização que faltava.
+
+COMO ATUALIZAR:
+1. Extraia este ZIP corrigido.
+2. No GitHub, substitua a pasta js inteira pela pasta js desta versão.
+3. Confirme que js/main.js e js/missions.js estão no caminho correto.
+4. Faça commit das alterações.
+5. Abra o site e pressione Ctrl + F5.
+6. Clique em ENTRAR EM MODO DEMONSTRAÇÃO.
+
+LOGIN COM CONTA:
+O login por e-mail só funciona depois de configurar SUPABASE_URL,
+SUPABASE_PUBLISHABLE_KEY e DEMO_MODE = false em js/config.js.
